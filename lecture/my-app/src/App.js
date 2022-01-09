@@ -1,21 +1,24 @@
 import './App.css';
-
-import Extraction from './Part1_2_04/Extraction';
-import Composition from './Part1_2_04/Composition';
-import ClassComponent from './Part1_2_05/ClassComponent';
-import FunctionalComponent from './Part1_2_05/FunctionalComponent';
-import ClassComponent2 from './Part1_2_06/ClassComponent';
+import Event from './Part1_2_07/Event';
+// import Extraction from './Part1_2_04/Extraction';
+// import Composition from './Part1_2_04/Composition';
+// import ClassComponent from './Part1_2_05/ClassComponent';
+// import FunctionalComponent from './Part1_2_05/FunctionalComponent';
+// import ClassComponent2 from './Part1_2_06/ClassComponent';
 
 function App() {
   return (
     <div className="App">
+      <Event />
       {/* <FunctionalComponent/> */}
       {/* <ClassComponent/> */}
       {/* <Extraction/> */}
       {/* <Composition/> */}
-      <ClassComponent2/>
+      {/* <ClassComponent2/> */}
     </div>
   );
 }
 
 export default App;
+
+//커밋 메시지: 패캠 강의 Part1_2_06
