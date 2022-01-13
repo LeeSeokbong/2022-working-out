@@ -1,5 +1,8 @@
 import './App.css';
-import Condition from './Part1_2_08/Condition'
+import ControlledComponent from './Part1_2_10/ControlledComponent'
+import UncontrolledComponent from './Part1_2_10/UncontrolledComponent';
+// import List from './Part1_2_09/List'
+// import Condition from './Part1_2_08/Condition'
 // import Event from './Part1_2_07/Event';
 // import Extraction from './Part1_2_04/Extraction';
 // import Composition from './Part1_2_04/Composition';
@@ -10,7 +13,10 @@ import Condition from './Part1_2_08/Condition'
 function App() {
   return (
     <div className="App">
-      <Condition />
+      <UncontrolledComponent />
+      <ControlledComponent />
+      {/* <List /> */}
+      {/* <Condition /> */}
       {/* <Event /> */}
       {/* <FunctionalComponent/> */}
       {/* <ClassComponent/> */}
