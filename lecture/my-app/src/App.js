@@ -1,6 +1,7 @@
 import './App.css';
-import Reducer from './Part1_3_03/Reducer'
-import State from './Part1_3_03/State';
+import WelcomeDialog from './Part1_3_05/WelcomeDialog';
+// import Reducer from './Part1_3_03/Reducer'
+// import State from './Part1_3_03/State';
 // import ControlledComponent from './Part1_2_10/ControlledComponent'
 // import UncontrolledComponent from './Part1_2_10/UncontrolledComponent';
 // import List from './Part1_2_09/List'
@@ -15,8 +16,9 @@ import State from './Part1_3_03/State';
 function App() {
   return (
     <div className="App">
-      <Reducer />
-      <State />
+      <WelcomeDialog />
+      {/* <Reducer /> */}
+      {/* <State /> */}
       {/* <UncontrolledComponent /> */}
       {/* <ControlledComponent /> */}
       {/* <List /> */}
