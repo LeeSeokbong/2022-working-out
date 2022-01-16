@@ -1,5 +1,7 @@
 import './App.css';
-import WelcomeDialog from './Part1_3_05/WelcomeDialog';
+import ThankyouDialog from './Part1_3_06/ThankyouDialog'
+// import Dialog from './Part1_3_06/Dialog';
+// import WelcomeDialog from './Part1_3_05/WelcomeDialog';
 // import Reducer from './Part1_3_03/Reducer'
 // import State from './Part1_3_03/State';
 // import ControlledComponent from './Part1_2_10/ControlledComponent'
@@ -16,7 +18,9 @@ import WelcomeDialog from './Part1_3_05/WelcomeDialog';
 function App() {
   return (
     <div className="App">
-      <WelcomeDialog />
+      <ThankyouDialog />
+      {/* <Dialog /> */}
+      {/* <WelcomeDialog /> */}
       {/* <Reducer /> */}
       {/* <State /> */}
       {/* <UncontrolledComponent /> */}
