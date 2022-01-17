@@ -1,5 +1,7 @@
 import './App.css';
-import ThankyouDialog from './Part1_3_06/ThankyouDialog'
+import Input from './Part1_3_07/Input';
+import Button from './Part1_3_07/Button';
+// import ThankyouDialog from './Part1_3_06/ThankyouDialog'
 // import Dialog from './Part1_3_06/Dialog';
 // import WelcomeDialog from './Part1_3_05/WelcomeDialog';
 // import Reducer from './Part1_3_03/Reducer'
@@ -18,7 +20,9 @@ import ThankyouDialog from './Part1_3_06/ThankyouDialog'
 function App() {
   return (
     <div className="App">
-      <ThankyouDialog />
+      <Input />
+      <Button />
+      {/* <ThankyouDialog /> */}
       {/* <Dialog /> */}
       {/* <WelcomeDialog /> */}
       {/* <Reducer /> */}
