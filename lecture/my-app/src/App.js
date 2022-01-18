@@ -1,6 +1,7 @@
 import './App.css';
-import Input from './Part1_3_07/Input';
-import Button from './Part1_3_07/Button';
+import Memo from './Part1_3_08/Memo';
+// import Input from './Part1_3_07/Input';
+// import Button from './Part1_3_07/Button';
 // import ThankyouDialog from './Part1_3_06/ThankyouDialog'
 // import Dialog from './Part1_3_06/Dialog';
 // import WelcomeDialog from './Part1_3_05/WelcomeDialog';
@@ -20,8 +21,9 @@ import Button from './Part1_3_07/Button';
 function App() {
   return (
     <div className="App">
-      <Input />
-      <Button />
+      <Memo />
+      {/* <Input /> */}
+      {/* <Button /> */}
       {/* <ThankyouDialog /> */}
       {/* <Dialog /> */}
       {/* <WelcomeDialog /> */}
